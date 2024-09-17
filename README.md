@@ -1,4 +1,4 @@
-# Rimoko
+# Rimokopy
 
 ## Overview
 
