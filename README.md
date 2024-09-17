@@ -1,4 +1,4 @@
-# Rinokopy
+# Rinokopy | 梨乃子py
 
 ## Overview
 
