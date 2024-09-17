@@ -2,8 +2,8 @@
 
 ## Overview
 
-Allows you to easily update the remote URL of a Git-repo. This is particularly useful when<br>
-working with multiple repositories and needing to switch the remote URL frequently.
+Allows you to easily update the remote URL of your Git-repo in local machine. This is particularly<br>
+useful when working with multiple repositories and needing to switch the remote URL frequently.
 
 ## Usage
 
