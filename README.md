@@ -67,4 +67,4 @@ rimoko your-repo
 
 ---
 
-Using [MIT LICENSE]{/LICENSE}
+Using [MIT LICENSE](/LICENSE)
