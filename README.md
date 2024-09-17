@@ -5,6 +5,14 @@
 Allows you to easily update the remote URL of your Git-repo in local machine. This is particularly<br>
 useful when working with multiple repositories and needing to switch the remote URL frequently.
 
+## Script Details
+### First Step
+
+- **Dependencies:** This script uses the `subprocess` module, which is part of the Python standard library.
+- **Configuration:** In `rimoko.py`, make sure to replace `<username>` and `<access_token>` in the script with<br>
+your GitHub username and personal access token, respectively.
+
+
 ## Usage
 
 1. **Clone the repository or download the script.**
@@ -54,11 +62,6 @@ For example:
 ```bash
 rimoko your-repo
 ```
-
-## Script Details
-
-- **Dependencies:** This script uses the `subprocess` module, which is part of the Python standard library.
-- **Configuration:** Make sure to replace `<username>` and `<access_token>` in the script with your GitHub username and personal access token, respectively.
 
 ## Notes
 
