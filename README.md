@@ -1,4 +1,4 @@
-# Rimokopy
+# Rinokopy
 
 ## Overview
 
@@ -9,7 +9,7 @@ useful when working with multiple repositories and needing to switch the remote 
 ### First Step
 
 - **Dependencies:** This script uses the `subprocess` module, which is part of the Python standard library.
-- **Configuration:** In `rimoko.py`, make sure to replace `<username>` and `<access_token>` in the script with<br>
+- **Configuration:** In `rinoko.py`, make sure to replace `<username>` and `<access_token>` in the script with<br>
 your GitHub username and personal access token, respectively.
 
 
@@ -22,7 +22,7 @@ your GitHub username and personal access token, respectively.
 3. **Run the script with the repository name as an argument:**
 
     ```bash
-    python rimoko.py <repo_name>
+    python rinoko.py <repo_name>
     ```
     
     Replace `<repo_name>` with the name of your repository.
@@ -32,7 +32,7 @@ your GitHub username and personal access token, respectively.
 If you want to set the remote URL for a repository named `your-repo`, you would use:
 
 ```bash
-python rimoko.py your-repo
+python rinoko.py your-repo
 ```
 
 This command will update the `origin` remote URL to:
@@ -43,24 +43,24 @@ https://<username>:<access_token>@github.com/<username>/your-repo.git
 
 ## Alias Suggestion
 
-To make it easier to run the script, you can create an alias called `rimoko` by adding it to your `.bashrc` or `.zshrc` file:
+To make it easier to run the script, you can create an alias called `rinoko` by adding it to your `.bashrc` or `.zshrc` file:
 
 ```bash
-alias rimoko='python /path/to/rimoko.py'
+alias rinoko='python /path/to/rinoko.py'
 ```
 
-Replace `/path/to/rimoko.py` with the actual path to the script on your system.
+Replace `/path/to/rinoko.py` with the actual path to the script on your system.
 
 Once the alias is set, you can update the remote URL by simply running the following command in the terminal while inside the desired repository:
 
 ```bash
-rimoko <repo_name>
+rinoko <repo_name>
 ```
 
 For example:
 
 ```bash
-rimoko your-repo
+rinoko your-repo
 ```
 
 ## Notes
