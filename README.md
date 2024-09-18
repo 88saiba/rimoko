@@ -12,35 +12,6 @@ useful when working with multiple repositories and needing to switch the remote 
 - **Configuration:** In `rinoko.py`, make sure to replace `<username>` and `<access_token>` in the script with<br>
 your GitHub username and personal access token, respectively.
 
-
-## Usage
-
-1. **Clone the repository or download the script.**
-   
-2. **Open a terminal and navigate to the directory containing the script.**
-
-3. **Run the script with the repository name as an argument:**
-
-    ```bash
-    python rinoko.py <repo_name>
-    ```
-    
-    Replace `<repo_name>` with the name of your repository.
-
-## Example
-
-If you want to set the remote URL for a repository named `your-repo`, you would use:
-
-```bash
-python rinoko.py your-repo
-```
-
-This command will update the `origin` remote URL to:
-
-```
-https://<username>:<access_token>@github.com/<username>/your-repo.git
-```
-
 ## Alias Suggestion
 
 To make it easier to run the script, you can create an alias called `rinoko` by adding it to your `.bashrc` or `.zshrc` file:
