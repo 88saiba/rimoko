@@ -40,5 +40,6 @@ rinoko your-repo
 - For security reasons, avoid sharing the script with sensitive information like personal access tokens. Use placeholders or environment variables as needed.
 
 ---
+**License**
 
-Using [MIT LICENSE](/LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
